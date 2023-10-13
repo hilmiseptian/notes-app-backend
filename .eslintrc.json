@@ -12,5 +12,8 @@
         "linebreak-style": "off",
         "no-underscore-dangle":"off",
         "no-console":"off"
-    }
+    },
+    "import/no-extraneous-dependencies": ["off", {
+        "devDependencies": false, "optionalDependencies": false, "peerDependencies": false
+        }]
 }
